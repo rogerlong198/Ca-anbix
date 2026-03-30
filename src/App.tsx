@@ -267,24 +267,12 @@ export default function App() {
             </div>
             <h2 className="font-headline text-4xl font-bold text-primary mb-6">Atendimento na Sua Região</h2>
             <p className="text-body text-on-surface-variant text-lg mb-10 leading-relaxed">
-              Operamos em toda a região metropolitana com logística descentralizada. Verifique agora a disponibilidade para o seu CEP e receba uma proposta personalizada via WhatsApp em segundos.
+              Operamos em toda a região metropolitana com logística descentralizada. Selecione seu estado e cidade ao lado para verificar a disponibilidade e fale conosco pelo WhatsApp para receber uma proposta personalizada.
             </p>
-            <div className="bg-white p-8 rounded-3xl shadow-xl border border-outline-variant/15">
-              <h3 className="font-bold text-primary mb-6 flex items-center gap-2">
-                <span className="material-symbols-outlined">search_check</span>
-                Verifique a Disponibilidade
-              </h3>
-              <div className="space-y-4">
-                <div className="relative">
-                  <input className="w-full pl-12 pr-4 py-4 rounded-xl border-none bg-surface-container text-on-surface focus:ring-2 focus:ring-primary transition-all" placeholder="Digite seu CEP (ex: 01001-000)" type="text" />
-                  <span className="material-symbols-outlined absolute left-4 top-1/2 -translate-y-1/2 text-outline">location_searching</span>
-                </div>
-                <button className="w-full bg-[#25D366] text-white font-black py-4 rounded-xl hover:opacity-90 transition-all flex items-center justify-center gap-3 text-lg">
-                  <svg className="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.588-5.946 0-6.556 5.332-11.888 11.888-11.888 3.176 0 6.161 1.237 8.404 3.48s3.481 5.228 3.481 8.405c0 6.556-5.333 11.888-11.888 11.888-2.022 0-4.005-.515-5.756-1.493l-6.228 1.717zm6.416-4.103l.46.273c1.472.873 3.178 1.335 4.922 1.335 5.176 0 9.388-4.212 9.388-9.388 0-2.508-.976-4.866-2.748-6.638s-4.13-2.748-6.639-2.748c-5.176 0-9.388 4.212-9.388 9.388 0 1.785.507 3.525 1.467 5.013l.3.468-.991 3.621 3.714-.972zm10.124-6.837c-.244-.122-1.444-.712-1.667-.794-.223-.082-.385-.122-.547.122-.162.244-.629.794-.771.957-.142.162-.284.183-.528.061-.244-.122-1.029-.38-1.961-1.21-.724-.647-1.213-1.445-1.354-1.688-.142-.244-.015-.376.107-.497.111-.109.244-.284.365-.427.122-.142.162-.244.244-.407.082-.162.041-.305-.021-.427-.061-.122-.547-1.32-.75-1.808-.198-.476-.399-.411-.547-.419-.141-.007-.305-.008-.468-.008-.162 0-.427.061-.649.305-.223.244-.853.834-.853 2.035 0 1.201.874 2.36 1.016 2.543.142.183 1.721 2.628 4.169 3.684.582.251 1.036.401 1.391.514.585.187 1.117.16 1.538.098.469-.069 1.444-.59 1.647-1.159.203-.569.203-1.057.142-1.159-.061-.102-.223-.162-.468-.284z"></path></svg>
-                  Consultar via WhatsApp
-                </button>
-              </div>
-            </div>
+            <button className="w-full sm:w-auto bg-[#25D366] text-white font-black px-8 py-4 rounded-xl hover:opacity-90 transition-all flex items-center justify-center gap-3 text-lg">
+              <svg className="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.588-5.946 0-6.556 5.332-11.888 11.888-11.888 3.176 0 6.161 1.237 8.404 3.48s3.481 5.228 3.481 8.405c0 6.556-5.333 11.888-11.888 11.888-2.022 0-4.005-.515-5.756-1.493l-6.228 1.717zm6.416-4.103l.46.273c1.472.873 3.178 1.335 4.922 1.335 5.176 0 9.388-4.212 9.388-9.388 0-2.508-.976-4.866-2.748-6.638s-4.13-2.748-6.639-2.748c-5.176 0-9.388 4.212-9.388 9.388 0 1.785.507 3.525 1.467 5.013l.3.468-.991 3.621 3.714-.972zm10.124-6.837c-.244-.122-1.444-.712-1.667-.794-.223-.082-.385-.122-.547.122-.162.244-.629.794-.771.957-.142.162-.284.183-.528.061-.244-.122-1.029-.38-1.961-1.21-.724-.647-1.213-1.445-1.354-1.688-.142-.244-.015-.376.107-.497.111-.109.244-.284.365-.427.122-.142.162-.244.244-.407.082-.162.041-.305-.021-.427-.061-.122-.547-1.32-.75-1.808-.198-.476-.399-.411-.547-.419-.141-.007-.305-.008-.468-.008-.162 0-.427.061-.649.305-.223.244-.853.834-.853 2.035 0 1.201.874 2.36 1.016 2.543.142.183 1.721 2.628 4.169 3.684.582.251 1.036.401 1.391.514.585.187 1.117.16 1.538.098.469-.069 1.444-.59 1.647-1.159.203-.569.203-1.057.142-1.159-.061-.102-.223-.162-.468-.284z"></path></svg>
+              Falar no WhatsApp
+            </button>
           </div>
           <LocationFinder />
         </div>
