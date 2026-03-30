@@ -157,14 +157,15 @@ export default function App() {
             <h2 className="font-headline text-4xl md:text-5xl font-bold text-primary tracking-tight">Aluguel de Caçamba</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {/* Size Card 1 */}
+            {/* Size Card 1 - 3.000 Litros */}
             <div className="bg-surface-container-lowest p-8 rounded-[2rem] shadow-sm hover:shadow-xl transition-all group border border-transparent hover:border-secondary-container">
               <div className="mb-6 overflow-hidden rounded-xl">
-                <img alt="4m3 Bucket" className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-500" src="https://picsum.photos/seed/bucket4/400/300" referrerPolicy="no-referrer" />
+                <img alt="Caçamba 3.000 Litros" className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-500" src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=400&h=300&fit=crop" referrerPolicy="no-referrer" />
               </div>
               <span className="text-xs font-black bg-surface-container px-3 py-1 rounded-full text-primary tracking-widest uppercase">Residencial</span>
-              <h3 className="text-3xl font-black text-primary mt-4 mb-2">4m³ Padrão</h3>
-              <p className="text-on-surface-variant text-sm mb-8">Ideal para reformas pequenas e entulho leve doméstico.</p>
+              <h3 className="text-3xl font-black text-primary mt-4 mb-2">3.000 Litros</h3>
+              <p className="text-on-surface-variant text-sm mb-4">Ideal para reformas pequenas e entulho leve doméstico.</p>
+              <p className="text-on-surface-variant text-xs mb-8 font-medium">Dimensões: 2,20m x 1,30m</p>
               <div className="flex items-end gap-1 mb-8">
                 <span className="text-sm text-on-surface-variant mb-2">A partir de</span>
                 <span className="text-3xl font-black text-primary">R$ 199,99</span>
@@ -175,15 +176,16 @@ export default function App() {
               </button>
             </div>
 
-            {/* Size Card 2 (Premium) */}
+            {/* Size Card 2 (Premium) - 5.000 Litros */}
             <div className="bg-primary p-8 rounded-[2rem] shadow-2xl scale-105 relative z-10 border-4 border-secondary-container">
               <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-secondary-container text-on-secondary-fixed text-[10px] font-black px-6 py-1 rounded-full uppercase tracking-widest shadow-lg">MAIS POPULAR</div>
               <div className="mb-6 overflow-hidden rounded-xl">
-                <img alt="5m3 Bucket" className="w-full h-48 object-cover opacity-90" src="https://picsum.photos/seed/bucket5/400/300" referrerPolicy="no-referrer" />
+                <img alt="Caçamba 5.000 Litros" className="w-full h-48 object-cover opacity-90" src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=400&h=300&fit=crop" referrerPolicy="no-referrer" />
               </div>
               <span className="text-xs font-black bg-white/10 px-3 py-1 rounded-full text-secondary-container tracking-widest uppercase">Comercial</span>
-              <h3 className="text-3xl font-black text-white mt-4 mb-2">5m³ Plus</h3>
-              <p className="text-white/70 text-sm mb-8">O tamanho perfeito para obras médias e remoção de solo.</p>
+              <h3 className="text-3xl font-black text-white mt-4 mb-2">5.000 Litros</h3>
+              <p className="text-white/70 text-sm mb-4">O tamanho perfeito para obras médias e remoção de solo.</p>
+              <p className="text-white/50 text-xs mb-8 font-medium">Dimensões: 2,65m x 1,76m x 1,39m</p>
               <div className="flex items-end gap-1 mb-8">
                 <span className="text-sm text-white/60 mb-2">A partir de</span>
                 <span className="text-3xl font-black text-secondary-container">R$ 249,99</span>
@@ -194,14 +196,15 @@ export default function App() {
               </button>
             </div>
 
-            {/* Size Card 3 */}
+            {/* Size Card 3 - 7.000 Litros */}
             <div className="bg-surface-container-lowest p-8 rounded-[2rem] shadow-sm hover:shadow-xl transition-all group border border-transparent hover:border-secondary-container">
               <div className="mb-6 overflow-hidden rounded-xl">
-                <img alt="7m3 Bucket" className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-500" src="https://picsum.photos/seed/bucket7/400/300" referrerPolicy="no-referrer" />
+                <img alt="Caçamba 7.000 Litros" className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-500" src="https://images.unsplash.com/photo-1590496793929-36417d3117de?w=400&h=300&fit=crop" referrerPolicy="no-referrer" />
               </div>
               <span className="text-xs font-black bg-surface-container px-3 py-1 rounded-full text-primary tracking-widest uppercase">Industrial</span>
-              <h3 className="text-3xl font-black text-primary mt-4 mb-2">7m³ Heavy</h3>
-              <p className="text-on-surface-variant text-sm mb-8">Máxima capacidade para grandes demolições e logística pesada.</p>
+              <h3 className="text-3xl font-black text-primary mt-4 mb-2">7.000 Litros</h3>
+              <p className="text-on-surface-variant text-sm mb-4">Máxima capacidade para grandes demolições e logística pesada.</p>
+              <p className="text-on-surface-variant text-xs mb-8 font-medium">Dimensões: 3,50m x 1,74m x 1,55m</p>
               <div className="flex items-end gap-1 mb-8">
                 <span className="text-sm text-on-surface-variant mb-2">A partir de</span>
                 <span className="text-3xl font-black text-primary">R$ 389,99</span>
