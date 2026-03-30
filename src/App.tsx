@@ -3,6 +3,8 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
+import { LocationFinder } from "./LocationFinder"
+
 export default function App() {
   return (
     <div className="bg-surface text-on-surface font-body selection:bg-secondary-container selection:text-on-secondary-container min-h-screen scroll-smooth">
@@ -284,22 +286,7 @@ export default function App() {
               </div>
             </div>
           </div>
-          <div className="relative h-[500px] rounded-[3rem] overflow-hidden shadow-2xl border-4 border-white">
-            <div className="absolute inset-0 bg-surface-container" data-location="São Paulo">
-              <img alt="Coverage Map" className="w-full h-full object-cover grayscale opacity-30" src="https://picsum.photos/seed/map/800/600" referrerPolicy="no-referrer" />
-            </div>
-            {/* Interactive Point Markers Mockup */}
-            <div className="absolute top-1/4 left-1/3 w-4 h-4 bg-primary rounded-full animate-ping"></div>
-            <div className="absolute top-1/4 left-1/3 w-4 h-4 bg-primary rounded-full"></div>
-            <div className="absolute bottom-1/2 right-1/4 w-4 h-4 bg-secondary-container rounded-full animate-ping"></div>
-            <div className="absolute bottom-1/2 right-1/4 w-4 h-4 bg-secondary-container rounded-full"></div>
-            <div className="absolute inset-0 flex items-center justify-center">
-              <div className="bg-white/80 backdrop-blur-md p-6 rounded-2xl shadow-xl border border-white/20 text-center">
-                <span className="material-symbols-outlined text-primary text-4xl mb-2">location_city</span>
-                <p className="font-bold text-primary">Atendimento em<br />São Paulo e Região</p>
-              </div>
-            </div>
-          </div>
+          <LocationFinder />
         </div>
       </section>
 
