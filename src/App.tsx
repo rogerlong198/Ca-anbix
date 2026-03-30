@@ -5,7 +5,7 @@
 
 export default function App() {
   return (
-    <div className="bg-surface text-on-surface font-body selection:bg-secondary-container selection:text-on-secondary-container min-h-screen">
+    <div className="bg-surface text-on-surface font-body selection:bg-secondary-container selection:text-on-secondary-container min-h-screen scroll-smooth">
       {/* Top Navigation Bar */}
       <nav className="bg-white/80 backdrop-blur-md sticky top-0 z-50 shadow-sm">
         <div className="flex justify-between items-center w-full px-8 py-4 max-w-screen-2xl mx-auto">
@@ -30,11 +30,11 @@ export default function App() {
             </svg>
           </div>
           <div className="hidden md:flex items-center gap-8">
-            <a className="font-['Plus_Jakarta_Sans'] uppercase tracking-widest text-xs font-bold text-primary border-b-2 border-primary" href="#">INÍCIO</a>
-            <a className="font-['Plus_Jakarta_Sans'] uppercase tracking-widest text-xs font-bold text-on-surface-variant hover:text-primary transition-colors duration-300" href="#">SOBRE NÓS</a>
-            <a className="font-['Plus_Jakarta_Sans'] uppercase tracking-widest text-xs font-bold text-on-surface-variant hover:text-primary transition-colors duration-300" href="#">SERVIÇOS</a>
-            <a className="font-['Plus_Jakarta_Sans'] uppercase tracking-widest text-xs font-bold text-on-surface-variant hover:text-primary transition-colors duration-300" href="#">DIFERENCIAIS</a>
-            <a className="font-['Plus_Jakarta_Sans'] uppercase tracking-widest text-xs font-bold text-on-surface-variant hover:text-primary transition-colors duration-300" href="#">CONTATO</a>
+            <a className="font-['Plus_Jakarta_Sans'] uppercase tracking-widest text-xs font-bold text-primary border-b-2 border-primary" href="#inicio">INÍCIO</a>
+            <a className="font-['Plus_Jakarta_Sans'] uppercase tracking-widest text-xs font-bold text-on-surface-variant hover:text-primary transition-colors duration-300" href="#sobre">SOBRE NÓS</a>
+            <a className="font-['Plus_Jakarta_Sans'] uppercase tracking-widest text-xs font-bold text-on-surface-variant hover:text-primary transition-colors duration-300" href="#servicos">SERVIÇOS</a>
+            <a className="font-['Plus_Jakarta_Sans'] uppercase tracking-widest text-xs font-bold text-on-surface-variant hover:text-primary transition-colors duration-300" href="#diferenciais">DIFERENCIAIS</a>
+            <a className="font-['Plus_Jakarta_Sans'] uppercase tracking-widest text-xs font-bold text-on-surface-variant hover:text-primary transition-colors duration-300" href="#contato">CONTATO</a>
           </div>
           <div className="flex items-center gap-4">
             <span className="material-symbols-outlined text-primary">location_on</span>
@@ -46,7 +46,7 @@ export default function App() {
       </nav>
 
       {/* Hero Section */}
-      <header className="relative flex flex-col overflow-hidden">
+      <header id="inicio" className="relative flex flex-col overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img alt="Caçamba de construção" className="w-full h-full object-cover" src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/wmremove-transformed.png-FpKMi40QUNhugzo9qQwIKxokLMGSfY.jpeg" referrerPolicy="no-referrer" />
           <div className="absolute inset-0 bg-gradient-to-r from-primary/90 to-primary/40"></div>
@@ -106,7 +106,7 @@ export default function App() {
       </header>
 
       {/* Sobre Nós Section */}
-      <section className="py-24 bg-surface overflow-hidden">
+      <section id="sobre" className="py-24 bg-surface overflow-hidden">
         <div className="max-w-screen-2xl mx-auto px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
             <div className="relative">
@@ -150,7 +150,7 @@ export default function App() {
       </section>
 
       {/* Rental Sizes Section */}
-      <section className="py-24 bg-surface-container-low">
+      <section id="servicos" className="py-24 bg-surface-container-low">
         <div className="max-w-screen-2xl mx-auto px-8">
           <div className="text-center mb-16">
             <p className="text-secondary font-label text-sm font-bold tracking-[0.2em] mb-4 uppercase">CATÁLOGO</p>
@@ -219,7 +219,7 @@ export default function App() {
       </section>
 
       {/* Why Us Section */}
-      <section className="py-24 bg-primary text-white overflow-hidden relative">
+      <section id="diferenciais" className="py-24 bg-primary text-white overflow-hidden relative">
         <div className="absolute top-0 right-0 w-1/3 h-full bg-gradient-to-l from-black/20 to-transparent"></div>
         <div className="max-w-screen-2xl mx-auto px-8 relative z-10">
           <div className="flex flex-col md:flex-row justify-between items-end mb-20 gap-8">
@@ -256,7 +256,7 @@ export default function App() {
       </section>
 
       {/* Coverage Map Section */}
-      <section className="py-24 bg-surface-container-high relative overflow-hidden">
+      <section id="contato" className="py-24 bg-surface-container-high relative overflow-hidden">
         <div className="max-w-screen-2xl mx-auto px-8 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div>
             <div className="inline-flex items-center gap-2 bg-primary/5 px-4 py-2 rounded-full mb-6">
@@ -325,10 +325,10 @@ export default function App() {
           <div>
             <h5 className="text-white font-bold mb-6">Navegação</h5>
             <ul className="space-y-4 font-['Inter'] text-sm">
-              <li><a className="text-gray-400 hover:text-primary transition-all" href="#">Início</a></li>
-              <li><a className="text-gray-400 hover:text-primary transition-all" href="#">Sobre Nós</a></li>
-              <li><a className="text-gray-400 hover:text-primary transition-all" href="#">Nossos Serviços</a></li>
-              <li><a className="text-gray-400 hover:text-primary transition-all" href="#">Diferenciais</a></li>
+              <li><a className="text-gray-400 hover:text-primary transition-all" href="#inicio">Início</a></li>
+              <li><a className="text-gray-400 hover:text-primary transition-all" href="#sobre">Sobre Nós</a></li>
+              <li><a className="text-gray-400 hover:text-primary transition-all" href="#servicos">Nossos Serviços</a></li>
+              <li><a className="text-gray-400 hover:text-primary transition-all" href="#diferenciais">Diferenciais</a></li>
             </ul>
           </div>
           <div>
