@@ -225,7 +225,7 @@ export default function App() {
           <div className="flex flex-col md:flex-row justify-between items-end mb-20 gap-8">
             <div className="max-w-2xl">
               <p className="text-secondary-container font-label text-sm font-bold tracking-[0.2em] mb-4 uppercase">DIFERENCIAIS</p>
-              <h2 className="font-headline text-4xl md:text-5xl font-bold text-white tracking-tight">Por que escolher a Caçambix?</h2>
+              <h2 className="font-headline text-4xl md:text-5xl font-bold text-white tracking-tight">Por que escolher a LOCABEM?</h2>
             </div>
             <div className="hidden md:block h-px bg-white/20 flex-1 mx-12 mb-6"></div>
           </div>
