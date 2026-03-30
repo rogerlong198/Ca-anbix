@@ -40,9 +40,9 @@ export default function App() {
           </div>
           <div className="flex items-center gap-4">
             <span className="material-symbols-outlined text-primary">location_on</span>
-            <button className="bg-secondary-container text-on-secondary-fixed font-bold px-6 py-2.5 rounded-lg scale-95 duration-200 active:opacity-80 hover:bg-secondary-fixed-dim transition-all">
+            <a href="https://wa.me/5511999999999?text=Olá! Gostaria de solicitar um orçamento para locação de caçamba." target="_blank" rel="noopener noreferrer" className="bg-secondary-container text-on-secondary-fixed font-bold px-6 py-2.5 rounded-lg scale-95 duration-200 active:opacity-80 hover:bg-secondary-fixed-dim transition-all">
               Solicitar Agora
-            </button>
+            </a>
           </div>
         </div>
       </nav>
@@ -63,9 +63,9 @@ export default function App() {
               Soluções eficientes para remoção de entulho com agilidade, sustentabilidade e o melhor custo-benefício do mercado industrial.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="bg-secondary-container text-on-secondary-fixed font-bold px-8 md:px-10 py-4 md:py-5 rounded-xl hover:bg-secondary-fixed-dim transition-all text-base md:text-lg shadow-xl shadow-black/10">
+              <a href="https://wa.me/5511999999999?text=Olá! Gostaria de solicitar um orçamento para locação de caçamba." target="_blank" rel="noopener noreferrer" className="bg-secondary-container text-on-secondary-fixed font-bold px-8 md:px-10 py-4 md:py-5 rounded-xl hover:bg-secondary-fixed-dim transition-all text-base md:text-lg shadow-xl shadow-black/10 text-center">
                 Solicitar Orçamento
-              </button>
+              </a>
               <button className="border-2 border-white/30 backdrop-blur-sm text-white font-bold px-8 md:px-10 py-4 md:py-5 rounded-xl hover:bg-white/10 transition-all text-base md:text-lg">
                 Ver Tamanhos
               </button>
