@@ -48,7 +48,7 @@ export default function App() {
       {/* Hero Section */}
       <header className="relative flex flex-col overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <img alt="Industrial site" className="w-full h-full object-cover" src="https://picsum.photos/seed/construction/1920/1080" referrerPolicy="no-referrer" />
+          <img alt="Caçamba de construção" className="w-full h-full object-cover" src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/wmremove-transformed.png-FpKMi40QUNhugzo9qQwIKxokLMGSfY.jpeg" referrerPolicy="no-referrer" />
           <div className="absolute inset-0 bg-gradient-to-r from-primary/90 to-primary/40"></div>
         </div>
         <div className="relative z-10 w-full max-w-screen-2xl mx-auto px-8 md:px-12 py-20 md:py-32 flex-1 flex items-center">
