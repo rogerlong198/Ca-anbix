@@ -134,7 +134,7 @@ export default function App() {
               </div>
             </div>
             <div className="relative rounded-3xl overflow-hidden aspect-square shadow-2xl">
-              <img alt="Equipe Locabem" className="w-full h-full object-cover" src="/equipe.jpg" referrerPolicy="no-referrer" />
+              <img alt="Equipe Locabem" className="w-full h-full object-cover" src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Design%20sem%20nome%20%284%29-Whb0SfaZRNAIbZfbCi2r7N0xVWN8li.png" referrerPolicy="no-referrer" />
               <div className="absolute bottom-8 left-8 right-8 bg-white/90 backdrop-blur-md p-8 rounded-2xl shadow-lg border border-white/20">
                 <div className="flex items-center gap-6">
                   <div className="text-4xl font-black text-primary">+150</div>
