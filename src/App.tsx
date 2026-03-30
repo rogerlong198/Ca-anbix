@@ -46,25 +46,25 @@ export default function App() {
       </nav>
 
       {/* Hero Section */}
-      <header className="relative min-h-[870px] flex items-center overflow-hidden">
+      <header className="relative flex flex-col overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img alt="Industrial site" className="w-full h-full object-cover" src="https://picsum.photos/seed/construction/1920/1080" referrerPolicy="no-referrer" />
           <div className="absolute inset-0 bg-gradient-to-r from-primary/90 to-primary/40"></div>
         </div>
-        <div className="relative z-10 w-full max-w-screen-2xl mx-auto px-8 md:px-12 py-20">
+        <div className="relative z-10 w-full max-w-screen-2xl mx-auto px-8 md:px-12 py-20 md:py-32 flex-1 flex items-center">
           <div className="max-w-3xl">
             <span className="inline-block bg-secondary-container text-on-secondary-fixed text-[10px] font-black uppercase tracking-[0.2em] px-3 py-1 rounded-full mb-6">LÍDER EM LOGÍSTICA URBANA</span>
-            <h1 className="font-headline text-5xl md:text-7xl font-extrabold text-white leading-[1.1] mb-8 tracking-tight">
+            <h1 className="font-headline text-4xl md:text-7xl font-extrabold text-white leading-[1.1] mb-6 md:mb-8 tracking-tight">
               Locação de Caçambas Atendemos Sua Região
             </h1>
-            <p className="text-white/90 text-lg md:text-xl font-light mb-10 max-w-2xl leading-relaxed">
+            <p className="text-white/90 text-base md:text-xl font-light mb-8 md:mb-10 max-w-2xl leading-relaxed">
               Soluções eficientes para remoção de entulho com agilidade, sustentabilidade e o melhor custo-benefício do mercado industrial.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="bg-secondary-container text-on-secondary-fixed font-bold px-10 py-5 rounded-xl hover:bg-secondary-fixed-dim transition-all text-lg shadow-xl shadow-black/10">
+              <button className="bg-secondary-container text-on-secondary-fixed font-bold px-8 md:px-10 py-4 md:py-5 rounded-xl hover:bg-secondary-fixed-dim transition-all text-base md:text-lg shadow-xl shadow-black/10">
                 Solicitar Orçamento
               </button>
-              <button className="border-2 border-white/30 backdrop-blur-sm text-white font-bold px-10 py-5 rounded-xl hover:bg-white/10 transition-all text-lg">
+              <button className="border-2 border-white/30 backdrop-blur-sm text-white font-bold px-8 md:px-10 py-4 md:py-5 rounded-xl hover:bg-white/10 transition-all text-base md:text-lg">
                 Ver Tamanhos
               </button>
             </div>
@@ -72,8 +72,8 @@ export default function App() {
         </div>
 
         {/* Trust Indicators Overlay */}
-        <div className="absolute bottom-0 left-0 right-0 bg-white/5 backdrop-blur-xl border-t border-white/10">
-          <div className="max-w-screen-2xl mx-auto px-8 py-8 grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="relative z-10 bg-white/5 backdrop-blur-xl border-t border-white/10">
+          <div className="max-w-screen-2xl mx-auto px-8 py-6 md:py-8 grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
             <div className="flex items-center gap-4 text-white">
               <div className="w-12 h-12 rounded-full bg-secondary-container/20 flex items-center justify-center">
                 <span className="material-symbols-outlined text-secondary-container">bolt</span>
