@@ -40,7 +40,7 @@ export default function App() {
           </div>
           <div className="flex items-center gap-4">
             <span className="material-symbols-outlined text-primary">location_on</span>
-            <a href="https://wa.me/5511999999999?text=Olá! Gostaria de solicitar um orçamento para locação de caçamba." target="_blank" rel="noopener noreferrer" className="bg-secondary-container text-on-secondary-fixed font-bold px-6 py-2.5 rounded-lg scale-95 duration-200 active:opacity-80 hover:bg-secondary-fixed-dim transition-all">
+            <a href="https://wa.me/5567981590991?text=Olá! Gostaria de solicitar um orçamento para locação de caçamba." target="_blank" rel="noopener noreferrer" className="bg-secondary-container text-on-secondary-fixed font-bold px-6 py-2.5 rounded-lg scale-95 duration-200 active:opacity-80 hover:bg-secondary-fixed-dim transition-all">
               Solicitar Agora
             </a>
           </div>
@@ -63,7 +63,7 @@ export default function App() {
               Soluções eficientes para remoção de entulho com agilidade, sustentabilidade e o melhor custo-benefício do mercado industrial.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <a href="https://wa.me/5511999999999?text=Olá! Gostaria de solicitar um orçamento para locação de caçamba." target="_blank" rel="noopener noreferrer" className="bg-secondary-container text-on-secondary-fixed font-bold px-8 md:px-10 py-4 md:py-5 rounded-xl hover:bg-secondary-fixed-dim transition-all text-base md:text-lg shadow-xl shadow-black/10 text-center">
+              <a href="https://wa.me/5567981590991?text=Olá! Gostaria de solicitar um orçamento para locação de caçamba." target="_blank" rel="noopener noreferrer" className="bg-secondary-container text-on-secondary-fixed font-bold px-8 md:px-10 py-4 md:py-5 rounded-xl hover:bg-secondary-fixed-dim transition-all text-base md:text-lg shadow-xl shadow-black/10 text-center">
                 Solicitar Orçamento
               </a>
               <button className="border-2 border-white/30 backdrop-blur-sm text-white font-bold px-8 md:px-10 py-4 md:py-5 rounded-xl hover:bg-white/10 transition-all text-base md:text-lg">
@@ -162,7 +162,7 @@ export default function App() {
             {/* Size Card 1 - 3.000 Litros */}
             <div className="bg-surface-container-lowest p-8 rounded-[2rem] shadow-sm hover:shadow-xl transition-all group border border-transparent hover:border-secondary-container">
               <div className="mb-6 overflow-hidden rounded-xl">
-                <img alt="Caçamba 3.000 Litros" className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-500" src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=400&h=300&fit=crop" referrerPolicy="no-referrer" />
+                <img alt="Caçamba 3.000 Litros" className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-500" src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/wmremove-transformed%20%283%29-8e3p1qeqUl5j1HTI61TUi8W0J7bPq3.png" referrerPolicy="no-referrer" />
               </div>
               <span className="text-xs font-black bg-surface-container px-3 py-1 rounded-full text-primary tracking-widest uppercase">Residencial</span>
               <h3 className="text-3xl font-black text-primary mt-4 mb-2">3.000 Litros</h3>
@@ -172,17 +172,17 @@ export default function App() {
                 <span className="text-sm text-on-surface-variant mb-2">A partir de</span>
                 <span className="text-3xl font-black text-primary">R$ 199,99</span>
               </div>
-              <button className="w-full bg-primary text-white font-bold py-4 rounded-xl hover:opacity-90 transition-all flex items-center justify-center gap-2">
+              <a href="https://wa.me/5567981590991?text=Olá! Gostaria de alugar uma caçamba de 3.000 litros." target="_blank" rel="noopener noreferrer" className="w-full bg-primary text-white font-bold py-4 rounded-xl hover:opacity-90 transition-all flex items-center justify-center gap-2">
                 Alugar Agora
                 <span className="material-symbols-outlined text-sm">arrow_forward</span>
-              </button>
+              </a>
             </div>
 
             {/* Size Card 2 (Premium) - 5.000 Litros */}
             <div className="bg-primary p-8 rounded-[2rem] shadow-2xl scale-105 relative z-10 border-4 border-secondary-container">
               <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-secondary-container text-on-secondary-fixed text-[10px] font-black px-6 py-1 rounded-full uppercase tracking-widest shadow-lg">MAIS POPULAR</div>
               <div className="mb-6 overflow-hidden rounded-xl">
-                <img alt="Caçamba 5.000 Litros" className="w-full h-48 object-cover opacity-90" src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=400&h=300&fit=crop" referrerPolicy="no-referrer" />
+                <img alt="Caçamba 5.000 Litros" className="w-full h-48 object-cover opacity-90" src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/wmremove-transformed%20%283%29-8e3p1qeqUl5j1HTI61TUi8W0J7bPq3.png" referrerPolicy="no-referrer" />
               </div>
               <span className="text-xs font-black bg-white/10 px-3 py-1 rounded-full text-secondary-container tracking-widest uppercase">Comercial</span>
               <h3 className="text-3xl font-black text-white mt-4 mb-2">5.000 Litros</h3>
@@ -192,16 +192,16 @@ export default function App() {
                 <span className="text-sm text-white/60 mb-2">A partir de</span>
                 <span className="text-3xl font-black text-secondary-container">R$ 249,99</span>
               </div>
-              <button className="w-full bg-secondary-container text-on-secondary-fixed font-bold py-4 rounded-xl hover:bg-secondary-fixed-dim transition-all flex items-center justify-center gap-2 shadow-xl shadow-black/20">
+              <a href="https://wa.me/5567981590991?text=Olá! Gostaria de alugar uma caçamba de 5.000 litros." target="_blank" rel="noopener noreferrer" className="w-full bg-secondary-container text-on-secondary-fixed font-bold py-4 rounded-xl hover:bg-secondary-fixed-dim transition-all flex items-center justify-center gap-2 shadow-xl shadow-black/20">
                 Alugar Agora
                 <span className="material-symbols-outlined text-sm">shopping_cart</span>
-              </button>
+              </a>
             </div>
 
             {/* Size Card 3 - 7.000 Litros */}
             <div className="bg-surface-container-lowest p-8 rounded-[2rem] shadow-sm hover:shadow-xl transition-all group border border-transparent hover:border-secondary-container">
               <div className="mb-6 overflow-hidden rounded-xl">
-                <img alt="Caçamba 7.000 Litros" className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-500" src="https://images.unsplash.com/photo-1590496793929-36417d3117de?w=400&h=300&fit=crop" referrerPolicy="no-referrer" />
+                <img alt="Caçamba 7.000 Litros" className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-500" src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/wmremove-transformed%20%283%29-8e3p1qeqUl5j1HTI61TUi8W0J7bPq3.png" referrerPolicy="no-referrer" />
               </div>
               <span className="text-xs font-black bg-surface-container px-3 py-1 rounded-full text-primary tracking-widest uppercase">Industrial</span>
               <h3 className="text-3xl font-black text-primary mt-4 mb-2">7.000 Litros</h3>
@@ -211,10 +211,10 @@ export default function App() {
                 <span className="text-sm text-on-surface-variant mb-2">A partir de</span>
                 <span className="text-3xl font-black text-primary">R$ 389,99</span>
               </div>
-              <button className="w-full bg-primary text-white font-bold py-4 rounded-xl hover:opacity-90 transition-all flex items-center justify-center gap-2">
+              <a href="https://wa.me/5567981590991?text=Olá! Gostaria de alugar uma caçamba de 7.000 litros." target="_blank" rel="noopener noreferrer" className="w-full bg-primary text-white font-bold py-4 rounded-xl hover:opacity-90 transition-all flex items-center justify-center gap-2">
                 Alugar Agora
                 <span className="material-symbols-outlined text-sm">arrow_forward</span>
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -269,10 +269,10 @@ export default function App() {
             <p className="text-body text-on-surface-variant text-lg mb-10 leading-relaxed">
               Operamos em toda a região metropolitana com logística descentralizada. Selecione seu estado e cidade ao lado para verificar a disponibilidade e fale conosco pelo WhatsApp para receber uma proposta personalizada.
             </p>
-            <button className="w-full sm:w-auto bg-[#25D366] text-white font-black px-8 py-4 rounded-xl hover:opacity-90 transition-all flex items-center justify-center gap-3 text-lg">
+            <a href="https://wa.me/5567981590991?text=Olá! Gostaria de solicitar um orçamento para locação de caçamba." target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto bg-[#25D366] text-white font-black px-8 py-4 rounded-xl hover:opacity-90 transition-all flex items-center justify-center gap-3 text-lg">
               <svg className="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.588-5.946 0-6.556 5.332-11.888 11.888-11.888 3.176 0 6.161 1.237 8.404 3.48s3.481 5.228 3.481 8.405c0 6.556-5.333 11.888-11.888 11.888-2.022 0-4.005-.515-5.756-1.493l-6.228 1.717zm6.416-4.103l.46.273c1.472.873 3.178 1.335 4.922 1.335 5.176 0 9.388-4.212 9.388-9.388 0-2.508-.976-4.866-2.748-6.638s-4.13-2.748-6.639-2.748c-5.176 0-9.388 4.212-9.388 9.388 0 1.785.507 3.525 1.467 5.013l.3.468-.991 3.621 3.714-.972zm10.124-6.837c-.244-.122-1.444-.712-1.667-.794-.223-.082-.385-.122-.547.122-.162.244-.629.794-.771.957-.142.162-.284.183-.528.061-.244-.122-1.029-.38-1.961-1.21-.724-.647-1.213-1.445-1.354-1.688-.142-.244-.015-.376.107-.497.111-.109.244-.284.365-.427.122-.142.162-.244.244-.407.082-.162.041-.305-.021-.427-.061-.122-.547-1.32-.75-1.808-.198-.476-.399-.411-.547-.419-.141-.007-.305-.008-.468-.008-.162 0-.427.061-.649.305-.223.244-.853.834-.853 2.035 0 1.201.874 2.36 1.016 2.543.142.183 1.721 2.628 4.169 3.684.582.251 1.036.401 1.391.514.585.187 1.117.16 1.538.098.469-.069 1.444-.59 1.647-1.159.203-.569.203-1.057.142-1.159-.061-.102-.223-.162-.468-.284z"></path></svg>
               Falar no WhatsApp
-            </button>
+            </a>
           </div>
           <LocationFinder />
         </div>
