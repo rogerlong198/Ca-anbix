@@ -231,7 +231,7 @@ export function LocationFinder() {
             </p>
             <div className="space-y-3">
               <a 
-                href="https://wa.me/5511999999999" 
+                href="https://wa.me/5567981590991?text=Olá! Gostaria de informações sobre locação de caçambas na minha região." 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-full bg-[#25D366] text-white font-bold py-3 rounded-xl hover:opacity-90 transition-all flex items-center justify-center gap-2"
