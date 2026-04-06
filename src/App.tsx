@@ -116,7 +116,7 @@ export default function App() {
               <p className="text-secondary font-label text-sm font-bold tracking-[0.2em] mb-4 uppercase">QUEM SOMOS</p>
               <h2 className="font-headline text-4xl md:text-5xl font-bold text-primary mb-8 tracking-tight">Sobre Nós</h2>
               <p className="text-body text-on-surface-variant text-lg leading-relaxed mb-10">
-                A Industrial Architecture nasceu da necessidade de modernizar a gestão de resíduos sólidos. Unimos tecnologia e logística pesada para oferecer uma experiência de locação fluida e transparente para construtoras e proprietários.
+                A Industrial LOCA BEM nasceu da necessidade de modernizar a gestão de resíduos sólidos. Unimos tecnologia e logística pesada para oferecer uma experiência de locação fluida e transparente para construtoras e proprietários.
               </p>
               <div className="space-y-6">
                 <div className="flex gap-4 p-6 bg-surface-container-low rounded-2xl hover:bg-surface-container transition-colors cursor-default">
