@@ -162,7 +162,7 @@ export default function App() {
             {/* Size Card 1 - 3.000 Litros */}
             <div className="bg-surface-container-lowest p-8 rounded-[2rem] shadow-sm hover:shadow-xl transition-all group border border-transparent hover:border-secondary-container">
               <div className="mb-6 overflow-hidden rounded-xl">
-                <img alt="Caçamba 3.000 Litros" className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-500" src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=400&h=300&fit=crop" referrerPolicy="no-referrer" />
+                <img alt="Caçamba 3.000 Litros" className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-500" src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/wmremove-transformed%20%283%29-8e3p1qeqUl5j1HTI61TUi8W0J7bPq3.png" referrerPolicy="no-referrer" />
               </div>
               <span className="text-xs font-black bg-surface-container px-3 py-1 rounded-full text-primary tracking-widest uppercase">Residencial</span>
               <h3 className="text-3xl font-black text-primary mt-4 mb-2">3.000 Litros</h3>
@@ -201,7 +201,7 @@ export default function App() {
             {/* Size Card 3 - 7.000 Litros */}
             <div className="bg-surface-container-lowest p-8 rounded-[2rem] shadow-sm hover:shadow-xl transition-all group border border-transparent hover:border-secondary-container">
               <div className="mb-6 overflow-hidden rounded-xl">
-                <img alt="Caçamba 7.000 Litros" className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-500" src="https://images.unsplash.com/photo-1590496793929-36417d3117de?w=400&h=300&fit=crop" referrerPolicy="no-referrer" />
+                <img alt="Caçamba 7.000 Litros" className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-500" src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/wmremove-transformed%20%283%29-8e3p1qeqUl5j1HTI61TUi8W0J7bPq3.png" referrerPolicy="no-referrer" />
               </div>
               <span className="text-xs font-black bg-surface-container px-3 py-1 rounded-full text-primary tracking-widest uppercase">Industrial</span>
               <h3 className="text-3xl font-black text-primary mt-4 mb-2">7.000 Litros</h3>
