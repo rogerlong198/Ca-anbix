@@ -182,7 +182,7 @@ export default function App() {
             <div className="bg-primary p-8 rounded-[2rem] shadow-2xl scale-105 relative z-10 border-4 border-secondary-container">
               <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-secondary-container text-on-secondary-fixed text-[10px] font-black px-6 py-1 rounded-full uppercase tracking-widest shadow-lg">MAIS POPULAR</div>
               <div className="mb-6 overflow-hidden rounded-xl">
-                <img alt="Caçamba 5.000 Litros" className="w-full h-48 object-cover opacity-90" src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=400&h=300&fit=crop" referrerPolicy="no-referrer" />
+                <img alt="Caçamba 5.000 Litros" className="w-full h-48 object-cover opacity-90" src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/wmremove-transformed%20%283%29-8e3p1qeqUl5j1HTI61TUi8W0J7bPq3.png" referrerPolicy="no-referrer" />
               </div>
               <span className="text-xs font-black bg-white/10 px-3 py-1 rounded-full text-secondary-container tracking-widest uppercase">Comercial</span>
               <h3 className="text-3xl font-black text-white mt-4 mb-2">5.000 Litros</h3>
