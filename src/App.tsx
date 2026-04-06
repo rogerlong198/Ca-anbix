@@ -324,7 +324,7 @@ export default function App() {
               </li>
               <li className="flex items-center gap-3">
                 <span className="material-symbols-outlined text-primary text-sm">call</span>
-                0800 000 0000
+                (67) 8159-0991
               </li>
               <li className="flex items-start gap-3">
                 <span className="material-symbols-outlined text-primary text-sm">home_pin</span>
